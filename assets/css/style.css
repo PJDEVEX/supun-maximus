@@ -19,12 +19,17 @@ ul {
     padding: 0;
 }
 
+/* Font family for heading */
+h1 {
+    font-family: Playfair-Display, sans-serif;
+}
+
 /* Styling header, logo and nav */
 header {
     display: flex;
     width: 100vw;
     background-color: #bf9b6f;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0 auto;
     max-height: 170px;
 
 }
@@ -47,7 +52,8 @@ nav {
 }
 
 nav li {
-    display: block;    /* display linksas a colomn on small screen*/
+    display: block;
+    /* display linksas a colomn on small screen*/
     height: 100%;
     margin: 0 20px;
     line-height: 40px;
@@ -72,7 +78,43 @@ nav a:hover {
 
 }
 
+/* Hero image */
+
+#hero-image {
+    height: 800px;
+    width: 100%;
+    background: url('../image/hero-image.webp') no-repeat center center;
+    background-attachment: fixed;
+}
+
+#cover-text {
+    color: #d9c27e;
+    letter-spacing: 1px;
+    text-align: justify;
+    width: 40%;
+    height: auto;
+    padding: 3%;
+    background-color: rgba(57, 82, 115, .8);
+    top: 50%;
+    right: 40%;
+    position: absolute;
+}
+
+
+#cover-text p {
+    line-height: 1.5em;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
 @media only screen and (min-width: 600px) {
     nav li {
         display: inline-block;
     }
+
+    #cover-text h1 {
+        line-height: 3em;
+    }
+
+
+}
