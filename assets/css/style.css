@@ -9,4 +9,70 @@
 body {
     font-family: noto-sans, sans-serif;
     font-weight: 300;
+    color: #395273;
 }
+
+/* Remove bullets from all list items in the site */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styling header, logo and nav */
+header {
+    display: flex;
+    width: 100vw;
+    background-color: #bf9b6f;
+    margin: 0 auto 20px auto;
+    max-height: 170px;
+
+}
+
+/* Rounding logo & give padding*/
+
+#logo {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50% 50% 50% 50%;
+    padding: 5%;
+}
+
+nav {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav li {
+    display: block;    /* display linksas a colomn on small screen*/
+    height: 100%;
+    margin: 0 20px;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color .5s;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #395273;
+    color: #e76e20;
+}
+
+.active {
+    border-bottom: 1px solid #395273;
+
+}
+
+@media only screen and (min-width: 600px) {
+    nav li {
+        display: inline-block;
+    }
