@@ -115,6 +115,31 @@ nav a:hover {
     #cover-text h1 {
         line-height: 3em;
     }
+}
 
+#Services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
 
+#Services-container div {
+    padding: 25px;
+}
+
+#box-wm {
+    flex-basis: 15%;
+}
+
+#box-snc {
+    flex-basis: 15%;
+}
+
+#box-ipr {
+    flex-basis: 15%;
+}
+
+#box-cf {
+    flex-basis: 15%;
 }
