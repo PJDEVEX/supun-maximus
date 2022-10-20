@@ -20,8 +20,8 @@ ul {
 }
 
 /* Font family for heading */
-h1 {
-    font-family: Playfair-Display, sans-serif;
+h1, h2, h3 {
+    font-family: playfair-display, sans-serif;
 }
 
 /* Styling header, logo and nav */
@@ -142,4 +142,31 @@ nav a:hover {
 
 #box-cf {
     flex-basis: 15%;
+}
+
+#services-heading {
+    text-align: center;
+    vertical-align: middle;
+    padding: 5rem 0 3rem;
+    
+    
+}
+
+#Services-container h3 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 90%;
+    padding-bottom: 1rem;
+    
+}
+
+#Services-container img {
+
+}
+
+#Services-container p {
+    font-size: 80%;
+    font-weight: 650;
+    text-align: justify;
+    margin-top: 3rem;
 }
