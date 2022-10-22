@@ -170,3 +170,72 @@ nav a:hover {
     text-align: justify;
     margin-top: 3rem;
 }
+
+#about-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color:rgba(57, 82, 115, .8);
+}
+
+#about-container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#abt-content-container {
+    float: left;
+    width: 55%;
+}
+
+#about-image {
+    float: right;
+    width: 40%;
+}
+
+#about-image img {
+    width: 100%;
+    height: auto;
+}
+
+#abt-content-container #abt-title h2{
+    color: #bf9b6f;
+    line-height: 1.5em;
+    padding-bottom: 1rem;
+}
+#abt-content-container #abt-content p {
+    margin-top: 20px;
+    color: #bf9b6f;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 0.8em;
+    font-weight: 650;
+}
+
+@media screen and (max-width: 786px){
+    #about-container {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    #abt-content-container {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    #about-image {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 5% auto auto auto;
+    }
+
+    #abt-title h2 {
+        text-align: center;
+    }
+}
