@@ -20,8 +20,10 @@ ul {
 }
 
 /* Font family for heading */
-h1, h2, h3 {
-    font-family: playfair-display, sans-serif;
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
 }
 
 /* Styling header, logo and nav */
@@ -121,7 +123,7 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
 }
 
 #Services-container div {
@@ -148,8 +150,8 @@ nav a:hover {
     text-align: center;
     vertical-align: middle;
     padding: 5rem 0 3rem;
-    
-    
+
+
 }
 
 #Services-container h3 {
@@ -157,12 +159,10 @@ nav a:hover {
     vertical-align: middle;
     font-size: 90%;
     padding-bottom: 1rem;
-    
-}
-
-#Services-container img {
 
 }
+
+#Services-container img {}
 
 #Services-container p {
     font-size: 80%;
@@ -174,7 +174,7 @@ nav a:hover {
 #about-section {
     width: 100%;
     min-height: 100vh;
-    background-color:rgba(57, 82, 115, .8);
+    background-color: rgba(57, 82, 115, .8);
 }
 
 #about-container {
@@ -199,11 +199,12 @@ nav a:hover {
     height: auto;
 }
 
-#abt-content-container #abt-title h2{
+#abt-content-container #abt-title h2 {
     color: #bf9b6f;
     line-height: 1.5em;
     padding-bottom: 1rem;
 }
+
 #abt-content-container #abt-content p {
     margin-top: 20px;
     color: #bf9b6f;
@@ -213,7 +214,7 @@ nav a:hover {
     font-weight: 650;
 }
 
-@media screen and (max-width: 786px){
+@media screen and (max-width: 786px) {
     #about-container {
         width: 80%;
         display: block;
@@ -230,7 +231,7 @@ nav a:hover {
 
     #about-image {
         float: none;
-        width: 100%;
+        width: 80%;
         display: block;
         margin: 5% auto auto auto;
     }
@@ -238,4 +239,88 @@ nav a:hover {
     #abt-title h2 {
         text-align: center;
     }
+}
+
+#class-time-section {
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+#class-time-container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+
+}
+
+#class-image {
+    float: left;
+    width: 30%;
+}
+
+#class-image img {
+    width: 100%;
+    height: auto;
+}
+
+#class-time-contnet {
+    float: right;
+    width: 55%;
+}
+
+#class-time-contnet #class-time-title h2 {
+    line-height: 1.5em;
+    padding-bottom: 1rem;
+
+}
+
+#class-time-contnet #class-time-timings h3 {
+    margin-top: 20px;
+    text-align: left;
+    line-height: 1rem;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#class-time-contnet #class-time-timings h3 span {
+    font-size: 1.2em;
+    font-weight: 650;
+    padding-right: 5px;
+}
+
+
+@media screen and (max-width: 786px) {
+    #class-time-container {
+
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+
+    #class-image {
+        float: none;
+        width: 80%;
+        display: block;
+        margin: 5% auto auto auto;
+    }
+
+    #class-time-contnet {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 5% auto auto auto;
+    }
+
+    #class-time-title h2 {
+        text-align: center;
+    }
+
+    #class-time-timings h3 {
+        text-align: center;
+    }
+
 }
