@@ -19,11 +19,33 @@ ul {
     padding: 0;
 }
 
+/* Styling order list */
+ol {
+    list-style: inside;
+    margin-top: 5px;
+    font-family: 'Noto Sans', sans-ser;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-size: .9em;
+    font-weight: 500;
+    text-align: justify;
+
+}
 /* Font family for heading */
 h1,
 h2,
 h3 {
     font-family: 'Playfair Display', serif;
+}
+
+/* Paragraphs Styling*/
+p {
+    font-family: 'Noto Sans', sans-ser;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align: justify;
 }
 
 /* Styling header, logo and nav */
@@ -52,6 +74,7 @@ nav {
     align-items: center;
     width: 100%;
     justify-content: flex-end;
+    padding-right: 5%;
 }
 
 nav li {
@@ -92,8 +115,6 @@ nav a:hover {
 
 #cover-text {
     color: #d9c27e;
-    letter-spacing: 1px;
-    text-align: justify;
     width: 40%;
     height: auto;
     padding: 3%;
@@ -105,9 +126,7 @@ nav a:hover {
 
 
 #cover-text p {
-    line-height: 1.5em;
-    font-size: 0.8em;
-    font-weight: 500;
+    color: #d9c27e;
 }
 
 @media only screen and (min-width: 600px) {
@@ -166,9 +185,6 @@ nav a:hover {
 }
 
 #Services-container p {
-    font-size: 80%;
-    font-weight: 650;
-    text-align: justify;
     margin-top: 3rem;
 }
 
@@ -202,18 +218,14 @@ nav a:hover {
 }
 
 #abt-content-container #abt-title h2 {
-    color: #bf9b6f;
+    color: #d9c27e;
     line-height: 1.5em;
     padding-bottom: 1rem;
 }
 
 #abt-content-container #abt-content p {
     margin-top: 20px;
-    color: #bf9b6f;
-    text-align: justify;
-    line-height: 1.5em;
-    font-size: 0.8em;
-    font-weight: 650;
+    color: #d9c27e;
 }
 
 @media screen and (max-width: 786px) {
@@ -354,3 +366,92 @@ nav a:hover {
     color: #3a3a3a;
 }
 
+/* Case-studies page */
+
+#case-section {
+    width: 100vw;
+}
+
+.case-container {
+    width: 80%;
+    height: 60vh;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    }
+
+.case-content-container {
+     width: 50%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.case-image {
+    width: 30%;
+    height: 100%;
+}
+
+.case-image img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.case-content-container .case-title h2 {
+    color: #395273;
+    line-height: 1.5em;
+}
+
+.case-content-container .case-content p {
+    margin-top: 20px;
+    color: #395273;
+}
+
+.case-content-container .case-content h3 {
+    margin-top: 15px;
+    color: #395273;
+}
+
+/* content & image float */
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+@media screen and (max-width: 786px) {
+    .case-container {
+        width: 80%;
+        height:auto;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .case-content-container {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .case-image {
+        float: none;
+        width: 80%;
+        display: block;
+        margin: 5% auto auto auto;
+    }
+
+    .case-title h2 {
+        text-align: center;
+    }
+}
