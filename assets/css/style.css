@@ -30,10 +30,11 @@ h3 {
 header {
     display: flex;
     width: 100vw;
-    height: auto;
     background-color: #bf9b6f;
     margin: 0 auto 0 auto;
     max-height: 170px;
+    position: fixed;
+    z-index: 1;
 
 }
 
