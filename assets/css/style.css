@@ -376,6 +376,7 @@ nav a:hover {
 
 #case-section {
     width: 100vw;
+    overflow: auto;
 }
 
 .case-container {
