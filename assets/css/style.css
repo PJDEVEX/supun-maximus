@@ -310,6 +310,11 @@ nav a:hover {
     padding-right: 5px;
 }
 
+#google-map {
+    padding-top: 5%;
+    width: 100%;
+    height: auto;
+}
 
 @media screen and (max-width: 786px) {
     #class-time-container {
@@ -342,6 +347,11 @@ nav a:hover {
     #class-time-timings h3 {
         text-align: center;
         margin: 5%
+    }
+
+    #google-map {
+        width: 80%;
+        padding-bottom: 5px;
     }
 }
 
