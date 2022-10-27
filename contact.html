@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,10 +13,10 @@
     <title>Guidance of the Best personal trainer for your fitness goal</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Links for displaying favicon in brower tabs-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -43,53 +43,90 @@
         <div id="contact-bg-image"></div>
         <div id="contact-container">
             <div id="contact-details" class="float-left">
-                <div class="phone-details">
+                <div id="my-phone-details">
                     <i class="fa-solid fa-phone"></i>
                     <h3>Phone</h3>
                     <p>+94 779 210 009</p>
                 </div>
-                <div class="email">
+                <div id="my-email">
                     <i class="fa-solid fa-at"></i>
                     <h3>E-mail</h3>
                     <p>supun.d317@gmail.com</p>
                 </div>
             </div>
-            <div id="contact-form" class="float-right">
+            <div id="contact-form-container" class="float-right">
                 <h2>Send a message</h2>
                 <p>
                     To discuss and understand your requirements, you may share your contact details with a
                     brief description of you and your requirement(s). I will get in touch with you in 24hrs.
                 </p>
-                <form action="https://formdump.codeinstitute.net" method="post" class="send-message">
-                    <label for="fname">First Name</label>
+                <form action="https://formdump.codeinstitute.net" method="post" id="contact-form-fill">
+                    <label for="fname">
+                        <p class="label-heads">First Name</p>
+                    </label>
                     <input id="fname" class="input-box" type="text" name="first_name" placeholder="First Name" required>
-                    <label for="lname">Last Name</label>
+                    <label for="lname">
+                        <p class="label-heads">Last Name</p>
+                    </label>
                     <input id="lname" class="input-box" type="text" name="last_name" placeholder="Last Name" required>
-                    <label for="mobile">Mobile</label>
-                    <input id="mobile" class="input-box mobile-box" type="tel" name="mobile" placeholder="123-456-789"
-                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
-                    <label for="email">Email</label>
+                    <label for="mobile">
+                        <p class="label-heads">Mobile</p>
+                    </label>
+                    <input id="mobile" class="input-box mobile-box" type="tel" name="mobile" placeholder="777-123-456"
+                        pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
+                    <label for="email">
+                        <p class="label-heads">Email</p>
+                    </label>
                     <input id="email" class="input-box email-box" type="email" name="email" placeholder="abc@abc.com"
                         required>
-                    <h3>Age Category</h3>
-                    <input id="13-19" type="radio" name="age_category" value="13-19">
-                    <label for="13-19">13-19</label>
-                    <input id="20-34" type="radio" name="age_category" value="20-34">
-                    <label for="20-34">20-34</label>
-                    <input id="35-54" type="radio" name="age_category" value="35-54">
-                    <label for="35-54">35-54</label>
-                    <input id="55+" type="radio" name="age_category" value="55+">
-                    <label for="55+">55+</label>
-                    <h3>Gender</h3>
-                    <input id="male" type="radio" name="gender" value="male">
-                    <label for="male">Male</label>
-                    <input id="female" type="radio" name="gender" value="female">
-                    <label for="female">Female</label>
-                    <label for="message">Message</label>
+                    <p class="label-heads">Age Category</p>
+                    <div class="radio-box">
+                        <span class="radio-span">
+                            <input id="13-19" type="radio" name="age_category" value="13-19">
+                            <label for="13-19">
+                                <p class="radio-button">13-19</p>
+                            </label>
+                        </span>
+                        <span class="radio-span">
+                            <input id="20-34" type="radio" name="age_category" value="20-34">
+                            <label for="20-34">
+                                <p class="radio-button">20-34</p>
+                            </label>
+                        </span>
+                        <span class="radio-span">
+                            <input id="35-54" type="radio" name="age_category" value="35-54">
+                            <label for="35-54">
+                                <p class="radio-button">35-54</p>
+                            </label>
+                        </span>
+                        <span class="radio-span">
+                            <input id="55+" type="radio" name="age_category" value="55+">
+                            <label for="55+">
+                                <p class="radio-button">55+</p>
+                            </label>
+                        </span>
+                    </div>
+                    <p class="label-heads">Gender</p>
+                    <div class="radio-box">
+                        <span class="radio-span">
+                            <input id="male" type="radio" name="gender" value="male">
+                            <label for="male">
+                                <p class="radio-button">Male</p>
+                            </label>
+                        </span>
+                        <span class="radio-span">
+                            <input id="female" type="radio" name="gender" value="female">
+                            <label for="female">
+                                <p class="radio-button">Female</p>
+                            </label>
+                        </span>
+                    </div>
+                    <label for="message">
+                        <p class="label-heads">Message</p>
+                    </label>
                     <textarea name="message" id="message" cols="50" rows="4" maxlength="250"
                         placeholder="write about you and your requirment in brief..." required></textarea>
                     <input class="send-message" type="submit" value="Send" />
-
                 </form>
             </div>
         </div>
