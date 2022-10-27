@@ -490,7 +490,7 @@ nav a:hover {
 }
 
 #contact-container {
-    width: 70%;
+    width: 75%;
     top: 40%;
     left: 5%;
     position: absolute;
@@ -501,11 +501,37 @@ nav a:hover {
 }
 
 #contact-details {
-    width: 30%;
+    width: 25%;
     height: auto;
 }
 
+.phone-details, .email {	
+    width: 90%;	
+    height: auto;	
+}
+
 #contact-form {
-    width: 70%;
+    width: 60%;
     height: auto;
+    border: 1px solid #395272;
+    padding: 2%;
+}
+
+#contact-form p {
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    display-direction: colomn;
+    font-family: 'Noto Sans', sans-serif;
+    padding: .5%;
+}
+
+.send-message, h3 {
+    font-size: 80%;
+    padding: 1% 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 500;
 }
