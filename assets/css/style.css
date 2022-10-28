@@ -29,7 +29,6 @@ ol {
     font-size: .9em;
     font-weight: 500;
     text-align: justify;
-
 }
 
 /* Font family for heading */
@@ -57,7 +56,6 @@ header {
     margin: 0 auto 0 auto;
     max-height: 170px;
     z-index: 1;
-
 }
 
 /* Rounding logo & give padding*/
@@ -125,12 +123,11 @@ nav a:hover {
     position: absolute;
 }
 
-
 #cover-text p {
     color: #d9c27e;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 786px) {
     nav li {
         display: inline-block;
     }
@@ -147,7 +144,6 @@ nav a:hover {
     justify-content: space-around;
     flex-wrap: wrap;
     clear: both;
-
 }
 
 #Services-container div {
@@ -183,8 +179,6 @@ nav a:hover {
     text-align: center;
     vertical-align: middle;
     padding: 3rem 0 1rem;
-
-
 }
 
 #Services-container h3 {
@@ -193,7 +187,6 @@ nav a:hover {
     vertical-align: middle;
     font-size: 90%;
     padding-bottom: 1rem;
-
 }
 
 .ser-image {
@@ -210,38 +203,21 @@ nav a:hover {
 @media screen and (max-width: 786px) {
     #Services-container div {
 
-        width: 90%;
-        flex: none
-    }
-
-    #box-wm {
-        width: 100%;
-
-
-    }
-
-    #box-snc {
-        width: 100%;
-
-
-    }
-
-    #box-ipr {
-        width: 100%;
-
-
-    }
-
-    #box-cf {
-        width: 100%;
-
-
+        width: 80%;
+        flex: none;
+        align-content: center;
     }
 
     #Services-container h3 {
         font-size: 100%;
     }
+
+    .ser-image {
+        width: 50%;
+        margin-left: 25%;
+    }
 }
+
 
 /* About section styling */
 #about-section {
@@ -284,6 +260,7 @@ nav a:hover {
     color: #d9c27e;
 }
 
+/* Styling about area for small screens */
 @media screen and (max-width: 786px) {
     #about-container {
         width: 80%;
@@ -295,13 +272,12 @@ nav a:hover {
     #abt-content-container {
         float: none;
         width: 100%;
-        display: block;
         margin: auto;
     }
 
     #about-image {
         float: none;
-        width: 80%;
+        width: 70%;
         display: block;
         margin: 5% auto auto auto;
     }
@@ -311,9 +287,12 @@ nav a:hover {
     }
 }
 
+
+/* Class time section */
 #class-time-section {
     width: 100vw;
     min-height: 100vh;
+    clear: both;
 
 }
 
@@ -344,7 +323,6 @@ nav a:hover {
 #class-time-contnet #class-time-title>h2 {
     line-height: 1.5em;
     padding-bottom: 1rem;
-
 }
 
 #class-time-contnet #class-time-timings>h3 {
@@ -370,7 +348,7 @@ nav a:hover {
 @media screen and (max-width: 786px) {
     #class-time-container {
 
-        width: 80%;
+        width: 100%;
         display: block;
         margin: auto;
         padding-top: 50px;
@@ -402,6 +380,7 @@ nav a:hover {
 
     #google-map {
         width: 80%;
+        margin-left: 5%;
         padding-bottom: 5px;
     }
 }
@@ -530,6 +509,7 @@ nav a:hover {
 #contact-section {
     width: 100vw;
     height: 100vh;
+    clear: both;
 }
 
 #contact-bg-image {
@@ -591,14 +571,15 @@ nav a:hover {
     border-bottom: 1px solid #395272;
     width: 50%;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 0.8;
+    font-size: 0.8em;
     padding: .5%;
     margin-bottom: 5px;
 }
 
-.label-heads {
-    font-size: 1rem;
+.label-heads, .radio-lable-heads {
+    font-family: 'Noto Sans', sans-serif;
     margin-top: .25rem;
+    clear:both;
 }
 
 .radio-box {
@@ -611,14 +592,25 @@ nav a:hover {
 }
 
 .radio-button {
-    font-size: 0.8;
+    font-size: 0.8em;
 }
 
+#message-textarea-container {
+    display: block;
+}
+
+#message-textarea-label-head {
+    font-family: 'Noto Sans', sans-serif;
+    display: block;
+    clear:both;
+    margin-bottom: 1%;
+}
 #message {
     font-family: inherit;
     width: 50%;
     background-color: transparent;
-    border: 1px solid #395272;
+    border-bottom: 1px solid #395272;
+    clear:both;
 }
 
 .send-message {
@@ -678,7 +670,14 @@ nav a:hover {
         border: none
     }
 
+    .label-heads, .radio-lable-heads {
+       text-align: center;
+    }
 
+    .radio-box{ 
+        align-items: center;
+        margin-bottom: 1%;
+    }
     .input-box {
         width: 90%;
     }
