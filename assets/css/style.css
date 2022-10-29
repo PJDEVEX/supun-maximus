@@ -1,5 +1,7 @@
+/* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Playfair+Display:wght@500&display=swap');
 
+/* General Styling */
 * {
     margin: 0;
     padding: 0;
@@ -67,6 +69,7 @@ header {
     padding: 5%;
 }
 
+/* Nav bar */
 nav {
     text-align: right;
     display: flex;
@@ -93,11 +96,13 @@ nav a {
     font-weight: 700;
 }
 
+/* Pointing cursor to nav item */
 nav a:hover {
     border-bottom: 1px solid #395273;
     color: #e76e20;
 }
 
+/* Active page nav item */
 .active {
     border-bottom: 1px solid #395273;
 
@@ -112,6 +117,7 @@ nav a:hover {
     background-attachment: fixed;
 }
 
+/* Cover text */
 #cover-text {
     color: #d9c27e;
     width: 50%;
@@ -127,6 +133,7 @@ nav a:hover {
     color: #d9c27e;
 }
 
+/* Nav and Hero h1 for small screens */
 @media only screen and (min-width: 786px) {
     nav li {
         display: inline-block;
@@ -195,11 +202,11 @@ nav a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#Services-container>p {
+#services-container>p {
     margin-top: 3rem;
 }
 
-/* Styling service area for responsive */
+/* Styling service area for small screens */
 @media screen and (max-width: 786px) {
     #services-container div {
 
@@ -219,7 +226,7 @@ nav a:hover {
 }
 
 
-/* About section styling */
+/* About section */
 #about-section {
     width: 100vw;
     min-height: 100vh;
@@ -260,7 +267,7 @@ nav a:hover {
     color: #d9c27e;
 }
 
-/* Styling about area for small screens */
+/* Styling about section for small screens */
 @media screen and (max-width: 786px) {
     #about-container {
         width: 80%;
@@ -339,12 +346,14 @@ nav a:hover {
     padding-right: 5px;
 }
 
+/* Google map */
 #google-map {
     padding-top: 5%;
     width: 100%;
     height: auto;
 }
 
+/* Class time for small screens */
 @media screen and (max-width: 786px) {
     #class-time-container {
 
@@ -442,6 +451,7 @@ nav a:hover {
     width: 50%;
 }
 
+/* Float class for all the left and right floatings */
 .float-left {
     float: left;
 }
@@ -476,16 +486,7 @@ nav a:hover {
     color: #395273;
 }
 
-/* content and image float */
-
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
-
+/* Case section for small screens */
 @media screen and (max-width: 786px) {
     .case-container {
         width: 80%;
@@ -521,6 +522,7 @@ nav a:hover {
     clear: both;
 }
 
+/* Contact image */
 #contact-bg-image {
     background-image: url('../image/contact-background.webp');
     width: 100%;
@@ -542,6 +544,7 @@ nav a:hover {
     padding: 2%
 }
 
+/* Contact details */
 #contact-details {
     width: 25%;
     height: auto;
@@ -558,6 +561,7 @@ nav a:hover {
     margin-top: 5%;
 }
 
+/* Contact form */
 #contact-form-container {
     width: 70%;
     height: auto;
@@ -585,18 +589,17 @@ nav a:hover {
     margin-bottom: 5px;
 }
 
-.label-heads, .radio-lable-heads {
+.label-heads,
+.radio-lable-heads {
     font-family: 'Noto Sans', sans-serif;
     padding: 5px 0;
     font-size: inherit;
-
-    clear:both;
+    clear: both;
 }
 
 .radio-box {
     display: flex;
     gap: 3%;
-
 }
 
 .radio-span {
@@ -616,15 +619,16 @@ nav a:hover {
     font-family: 'Noto Sans', sans-serif;
     display: block;
     font-size: inherit;
-    clear:both;
+    clear: both;
     margin-bottom: 1%;
 }
+
 #message {
     font-family: inherit;
     width: 50%;
     background-color: transparent;
     border-bottom: 1px solid #395272;
-    clear:both;
+    clear: both;
 }
 
 .send-message {
@@ -644,6 +648,7 @@ nav a:hover {
     color: #395272;
 }
 
+/* Contact section for small screens */
 @media screen and (max-width: 786px) {
 
     #contact-details,
@@ -684,15 +689,17 @@ nav a:hover {
         border: none
     }
 
-    .label-heads, .radio-lable-heads {
-       text-align: center;
+    .label-heads,
+    .radio-lable-heads {
+        text-align: center;
     }
 
-    .radio-box{ 
+    .radio-box {
         align-items: center;
         margin-bottom: 1%;
         justify-content: center;
     }
+
     .input-box {
         width: 90%;
     }
