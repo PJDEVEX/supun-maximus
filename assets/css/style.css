@@ -578,13 +578,16 @@ nav a:hover {
 
 .label-heads, .radio-lable-heads {
     font-family: 'Noto Sans', sans-serif;
-    margin-top: .25rem;
+    padding: 5px 0;
+    font-size: inherit;
+
     clear:both;
 }
 
 .radio-box {
     display: flex;
-    gap: 2%;
+    gap: 3%;
+
 }
 
 .radio-span {
@@ -593,6 +596,7 @@ nav a:hover {
 
 .radio-button {
     font-size: 0.8em;
+    padding-left: 1rem;
 }
 
 #message-textarea-container {
@@ -602,6 +606,7 @@ nav a:hover {
 #message-textarea-label-head {
     font-family: 'Noto Sans', sans-serif;
     display: block;
+    font-size: inherit;
     clear:both;
     margin-bottom: 1%;
 }
@@ -677,9 +682,14 @@ nav a:hover {
     .radio-box{ 
         align-items: center;
         margin-bottom: 1%;
+        justify-content: center;
     }
     .input-box {
         width: 90%;
+    }
+
+    .radio-button {
+        padding-left: .9rem;
     }
 
     #message {
