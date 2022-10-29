@@ -112,9 +112,9 @@ nav a:hover {
 
 #hero-image {
         width: 100vw;
-        height: 100vh;
+        height: 800px;
         background: url('../image/hero-image.webp') no-repeat center center;
-        position: reletive;
+        position: relative;
         background-attachment: fixed;
     
 }
