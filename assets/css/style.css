@@ -58,7 +58,7 @@ header {
     z-index: 1;
 }
 
-/* Rounding logo & give padding*/
+/* Rounding logo and give padding*/
 
 #logo {
     max-width: 150px;
@@ -139,14 +139,14 @@ nav a:hover {
 
 /* Service container styling */
 
-#Services-container {
+#services-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     clear: both;
 }
 
-#Services-container div {
+#services-container div {
     padding: 25px;
     width: 25%;
 }
@@ -181,7 +181,7 @@ nav a:hover {
     padding: 3rem 0 1rem;
 }
 
-#Services-container h3 {
+#services-container h3 {
     text-align: center;
     height: 5%;
     vertical-align: middle;
@@ -201,14 +201,14 @@ nav a:hover {
 
 /* Styling service area for responsive */
 @media screen and (max-width: 786px) {
-    #Services-container div {
+    #services-container div {
 
         width: 80%;
         flex: none;
         align-content: center;
     }
 
-    #Services-container h3 {
+    #services-container h3 {
         font-size: 100%;
     }
 
@@ -476,7 +476,7 @@ nav a:hover {
     color: #395273;
 }
 
-/* content & image float */
+/* content and image float */
 
 .float-left {
     float: left;
