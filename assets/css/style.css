@@ -53,7 +53,6 @@ p {
 /* Styling header, logo and nav */
 header {
     display: flex;
-    width: 100%;
     background-color: #bf9b6f;
     margin: 0 auto 0 auto;
     max-height: 170px;
