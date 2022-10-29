@@ -1,4 +1,4 @@
-/* Google fonts */
+/* Googel fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Playfair+Display:wght@500&display=swap');
 
 /* General Styling */
@@ -427,7 +427,9 @@ nav a:hover {
     display: flex;
     font-size: 0.8rem;
     justify-content: end;
+    align-items: center;
     padding-right: 1rem;
+    gap: 5px;
 }
 
 /* Case-studies page */
@@ -713,5 +715,4 @@ nav a:hover {
         float: left;
         margin-bottom: 2%;
     }
-
 }
