@@ -389,8 +389,10 @@ nav a:hover {
 
 .footer-section {
     background-color: #bf9b6f;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
     min-height: 100px;
+    padding: 10px;
 }
 
 .footer-section li {
@@ -410,6 +412,13 @@ nav a:hover {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+#copyright {
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: end;
+    padding-right: 1rem;
 }
 
 /* Case-studies page */
