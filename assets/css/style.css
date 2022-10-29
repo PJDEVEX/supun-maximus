@@ -111,10 +111,12 @@ nav a:hover {
 /* Hero image */
 
 #hero-image {
-    height: 800px;
-    width: 100vw;
-    background: url('../image/hero-image.webp') no-repeat center center;
-    background-attachment: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: url('../image/hero-image.webp') no-repeat center center;
+        position: reletive;
+        background-attachment: fixed;
+    
 }
 
 /* Cover text */
@@ -140,7 +142,8 @@ nav a:hover {
     }
 
     #hero-image {
-        width: 100vw;
+        width: 100%;
+        height: 100vh;
     }
 
     #cover-text h1 {
