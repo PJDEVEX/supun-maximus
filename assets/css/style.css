@@ -57,6 +57,7 @@ header {
     margin: 0 auto 0 auto;
     max-height: 170px;
     z-index: 1;
+    overflow: hidden;
 }
 
 /* Rounding logo and give padding*/
