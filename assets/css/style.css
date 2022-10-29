@@ -133,10 +133,14 @@ nav a:hover {
     color: #d9c27e;
 }
 
-/* Nav and Hero h1 for small screens */
+/* Nav Hero image and h1  for small screens */
 @media only screen and (min-width: 786px) {
     nav li {
         display: inline-block;
+    }
+
+    #hero-image {
+        width: 100vw;
     }
 
     #cover-text h1 {
