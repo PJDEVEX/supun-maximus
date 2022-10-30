@@ -84,7 +84,7 @@ For the whole site,
 
     ![favicon](docs/readme-images/Favicon.webp)
 
-## Page title
+## Page Title
 
 - A title tag that gives a brief description of the respective page is created for every page to appear on top of the page.
 - This will help not the only user to easily understand the content of the page but also appear on the search engine result page (SERP) and help search engine optimization (SEO).
@@ -115,7 +115,7 @@ For the whole site,
 
     ![footer](docs/readme-images/footer.webp)
 
-## Landing page
+## Landing Page
 
 - The browser will direct the visitor to the landing page when they use a search engine to visit the website. 
 - The hero section of the site is used to convey a powerful message to the visitor on his highly committed philosophy and fertility as a personal trainer.
@@ -132,7 +132,7 @@ For the whole site,
 
     ![supun-maximus-services](docs/readme-images/supun-maximus-services.webp)
 
-## About the trainer
+## About the Trainer
 - The area gives a brief about the experience, education and also the passion for the subject of fitness training. 
 - In this case, we have especially used the image to flip the perception to more ease and provide evidence of his academic commitment and authority to perform as a personal trainer.
 - Content is developed using keywords and the image has an alt-tag. Therefore, it helps to optimize SEO.
@@ -150,7 +150,7 @@ For the whole site,
 
     ![training-Sessions](docs/readme-images/training-sessions.webp)
 
-## Case studies
+## Case Studies
 - Case studies provide what Supun Maximus has practically done as a trainer in helping his various clients using his own clients’ images and his commitment to using correct biomechanism in training.
 - In addition, a brief has been given on the technicality behind each scenario.
 - In par with the owner’s expectation, this section improves his brand image as a qualified trainer.
@@ -161,7 +161,7 @@ For the whole site,
 
     ![case-studies](docs/readme-images/case-studies.webp)
 
-## Contact page
+## Contact Page
 
 - This page provides contact information if the visitor would like to contact him directly or send him a form so that he can contact the client.
 - Our client believes the selection of a trainer shall be a rational decision and need to research -knowledge, experience and expertise before deciding on it. Therefore, he has advised us to keep the contact details on the contact page and moreover as it may disturb training sessions.
@@ -177,21 +177,21 @@ Accordingly, we have shared the contact details only on the contact page.
 
     ![Contact-page](docs/readme-images/contact-page.webp)
 
-## Existing functional Features,
+## Existing Functional Features,
 - Responsive design
 - Contact form
 - Use of Social media icons
 - On mobile or tabs, customers can directly call without typing the number separately.
 - visitors can use the given email for sending message directly if required
 
-## Existing Non-functional features
+## Existing Non-functional Features
 - Simple well-defined navigation
 - Simple but consistent web designed for maximizing user experience
 - Content and images developed for SEO optimization
 - Optimize images for faster functioning of the site
 - The site is designed for scalability
 
-## Features to be implemented
+## Features to be Implemented
 - 404 error page in case of a page could not be found
 - Thank you, page, to confirm the receipt of the contact form details
 - Introduce casserole for my service area
@@ -246,6 +246,7 @@ The following components shall be used to give a pleasurable and still objective
     ![wf-desktop-contact](docs/readme-images/wf-contact.webp)
 
 - Contact page on Mobile
+
     ![wf-mobile-contact](docs/readme-images/wf-mobile-contact.webp)
 
 # Surface Plane
@@ -279,7 +280,7 @@ Identity, to ensure economy, readability (legible, contrast, consistency)
 
 The above concludes the UXD section of the website.
 
-# Techno used
+# Techno Used
 
 ## HTML
 The website is structured using Hypertext Markup Language (HTML) as the main language
@@ -315,11 +316,11 @@ Image of the contact form was obtained from [pixbay](https://pixabay.com/photos)
 ## Keywords 
 For identifing key words, [SERanking](https://seranking.com/) was used.
 
-## Check code differances
+## Check for Code Differances
 
 TO check code variations [Diffchecker]https://www.diffchecker.com/) was used.
 
-## Formating and indetation of HTML
+## Formating and Indetation of HTML
 
 [Scott Granneman](https://granneman.com/webdev/coding/formatting-and-indenting-your-html) is used as a gudince when formating and indenting HTML
 
@@ -368,21 +369,21 @@ The following requirements were tested to make sure they were met:
 
 ## Lighthouse Testing
 
-### Home page on a Desktop
+### Home Page on a Desktop
 
    ![home-page-on-a-desktop](../supun-maximus/docs/test-images/lighthouse-home-desktop.webp)
 
-### Case Studies page on a Desktop
+### Case Studies Page on a Desktop
 
    ![case-studies-page-on-a-desktop](../supun-maximus/docs/test-images/lighthouse-casestudies-desktop.webp)
 
-### Contact page on a Desktop
+### Contact Page on a Desktop
 
    ![contact-page-on-a-desktop](../supun-maximus/docs/test-images/lighthouse-contact-desktop.webp)
 
 ## Functional Testing
 
-### Navigational testing
+### Navigational Testing
 By clicking navigation on each of the pages, examined the navigation performance of all the navigation links.
 
 
@@ -429,7 +430,7 @@ Steps,
 
 The form on the contact page was manually tested. It performed as expected where required data is skipped or inserted without following the guidance given, will not be allowed to proceed.
 
-**Scenario 1 – Correct input**
+**Scenario 1 – Correct Input**
 1.	Navigate to Supun Maximus – Contact page https://pjdevex.github.io/supun-maximus/contact.html
 2.	Scroll down to the form and insert the below data, 
 
@@ -447,7 +448,7 @@ The form on the contact page was manually tested. It performed as expected where
 
 **Actual**: requirement was met
 
-**Scenario two – Missing required field, first name**
+**Scenario 2 – Missing Required Field, First Name**
 
 1.	Navigate to Supun Maximus – Contact page https://pjdevex.github.io/supun-maximus/contact.html
 2.	Scroll down to the form and inset below deta
@@ -465,7 +466,7 @@ The form on the contact page was manually tested. It performed as expected where
 
 **Actual**: requirement was met
 
-**Scenario 3 – Missing required field – last name**
+**Scenario 3 – Missing Required Field – Last Name**
 
 1.	Navigate to Supun Maximus – Contact page https://pjdevex.github.io/supun-maximus/contact.html
 2.	Scroll down to the form and insert below data
@@ -483,7 +484,7 @@ The form on the contact page was manually tested. It performed as expected where
 
 **Actual**: requirement was met
 
-**Scenario 4 – mobile in wrong format**
+**Scenario 4 – Mobile Number in Wrong Format**
 
 1.	Navigate to Supun Maximus – Contact page https://pjdevex.github.io/supun-maximus/contact.html
 2.	Scroll down to the form and insert thr below data
@@ -502,7 +503,7 @@ The form on the contact page was manually tested. It performed as expected where
 **Actual**: requirement was met
 
 
-**Scenario 5 – email in wrong format**
+**Scenario 5 – Email in Wrong Format**
 1.	Navigate to Supun Maximus – Contact page https://pjdevex.github.io/supun-maximus/contact.html
 2.	Scroll down to the form and insert below data
 -           First Name: Peter
@@ -520,14 +521,14 @@ The form on the contact page was manually tested. It performed as expected where
 
 **Actual**: requirement was met.
 
-### Google map
+### Google Map
 Google map in the training time section was manually clicked
 
 **Required**: Landed in google map with the training center in the middle of the map.
 
 **Actual**: the requirement was met.
 
-### Footer Social media links
+### Footer Social Media Links
 
 Social media icons in the footer section, clicked manually to ensure the correct connection to external links. 
 
@@ -535,19 +536,19 @@ Social media icons in the footer section, clicked manually to ensure the correct
 
 **Actual**: the requirement was met.
 
-## Validator testing
+## Validator Testing
 
 ### HTML
 
 No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
-**Index page HTML Validation**
+**Index Page HTML Validation**
 ![index-html](docs/test-images/html-checker-index-page.webp)
 
 **Case Studies page HTML Validation**
 ![case-study](docs/test-images/html-check-casestudies.webp)
 
-**Contac page HTML Validation**
+**Contac Page HTML Validation**
 ![contact-page](docs/test-images/html-check-contact.webp)
 
 ### CSS
