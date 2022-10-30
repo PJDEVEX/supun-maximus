@@ -510,6 +510,10 @@ nav a:hover {
 
 .case-content-container .case-title>h1 {
     color: #395273;
+}
+
+.case-content-container .case-title>h2 {
+    color: #395273;
     line-height: 1.5em;
 }
 
@@ -549,6 +553,10 @@ nav a:hover {
     }
 
     .case-title>h1 {
+        text-align: center;
+    }
+
+    .case-title>h2 {
         text-align: center;
     }
 }
