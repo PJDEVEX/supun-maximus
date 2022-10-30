@@ -1,5 +1,5 @@
 ![supun maximus](assets/image/supun-maximus-logo.webp)
-# supun maximus
+# Supun Maximus
 
 ## Introduction
 
