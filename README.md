@@ -1,11 +1,11 @@
-![supun maximus](../supun-maximus/assets/image/supun-maximus-logo.webp)
+![supun maximus](assets/image/supun-maximus-logo.webp)
 # supun maximus
 
 ## Introduction
 
 This website is developed for one of the outstanding upcoming professional fitness trainers, Mr. Supun Dayarathna in Sri Lanka to communicate and engage with its target audience. This document the details technical as well as commercial aspects of the development of the website.
 
-![Am I responsive](../supun-maximus/docs//test-images/am-I-responsive.webp)
+![Am I responsive](docs/test-images/am-I-responsive.webp)
 
 ## Project Idea
 
@@ -82,14 +82,14 @@ For the whole site,
 - Using two letters of Supun Maximus a Favicon is displayed in the browser tab
 - This will help a user to easily identify the site among many tab opened in a browse 
 
-    ![favicon](../supun-maximus/docs/readme-images/Favicon.webp)
+    ![favicon](docs/readme-images/Favicon.webp)
 
 ## Page title
 
 - A title tag that gives a brief description of the respective page is created for every page to appear on top of the page.
 - This will help not the only user to easily understand the content of the page but also appear on the search engine result page (SERP) and help search engine optimization (SEO).
 
-    ![page-title](../supun-maximus/docs/readme-images/page-title.webp)
+    ![page-title](docs/readme-images/page-title.webp)
 
 ### Logo
 - A logo is used across the site 
@@ -97,7 +97,7 @@ For the whole site,
 - All the colors used in developing the site have been taken from the logo.
 - From any page, if you click on the logo, you will be directed to the home page.
 
-    ![logo](../supun-maximus/docs/readme-images/logo.webp)
+    ![logo](docs/readme-images/logo.webp)
 
 ### Navigation Bar
 
@@ -105,7 +105,7 @@ For the whole site,
 - It is responsive to all devices
 - This helps users to navigate to any page on any device.
 
-    ![navigation bar](../supun-maximus/docs/readme-images/Nav-bar.webp)
+    ![navigation bar](docs/readme-images/Nav-bar.webp)
 
 ### Footer
 - In the footer, we have included social media icons. This allows a visitor to access the social media of Mr Dayarathne or Supun Maximus.
@@ -113,7 +113,7 @@ For the whole site,
 - Use of aria-label may help visually impaired people as they are used in social media icons.
 - In addition, CSS validation and the GitHub name of the developer have been included for further authentication for those who know about the subject (IT)
 
-    ![footer](../supun-maximus/docs/readme-images/footer.webp)
+    ![footer](docs/readme-images/footer.webp)
 
 ## Landing page
 
@@ -121,7 +121,7 @@ For the whole site,
 - The hero section of the site is used to convey a powerful message to the visitor on his highly committed philosophy and fertility as a personal trainer.
 - When prospects analyse the whole page, the content has been developed to boost the confidence of prospective clients and reduce the risk of their buying decision.
 
-    ![landing-page](../supun-maximus/docs/readme-images/landing-page.webp)
+    ![landing-page](docs/readme-images/landing-page.webp)
 
 ## Supun Maximus Services
 - This area is enriched with services or the specializations of the trainer.
@@ -130,7 +130,7 @@ For the whole site,
 - It helps to reduce risk and boost confidence.
 - Content is developed using keywords. Therefore, it helps to optimize SEO.
 
-    ![supun-maximus-services](../supun-maximus/docs/readme-images/supun-maximus-services.webp)
+    ![supun-maximus-services](docs/readme-images/supun-maximus-services.webp)
 
 ## About the trainer
 - The area gives a brief about the experience, education and also the passion for the subject of fitness training. 
@@ -138,7 +138,7 @@ For the whole site,
 - Content is developed using keywords and the image has an alt-tag. Therefore, it helps to optimize SEO.
 - Image has an alt-tag it will help a visually impaired person, SEO optimization and indexing.
 
-    ![about-the-trainer](../supun-maximus/docs/readme-images/about-the-trainer.webp)
+    ![about-the-trainer](docs/readme-images/about-the-trainer.webp)
 
 ## Training Sessions
 
@@ -148,7 +148,7 @@ For the whole site,
 - A Google map is included for ease of navigation to the center.
 - Image has an alt-tag it will help a visually impaired person, SEO optimization and indexing
 
-    ![training-Sessions](../supun-maximus/docs/readme-images/training-sessions.webp)
+    ![training-Sessions](docs/readme-images/training-sessions.webp)
 
 ## Case studies
 - Case studies provide what Supun Maximus has practically done as a trainer in helping his various clients using his own clients’ images and his commitment to using correct biomechanism in training.
@@ -159,7 +159,7 @@ For the whole site,
 - Content is developed using keywords and the image has an alt-tag. Therefore, it helps to optimize SEO.
 - Image has an alt-tag it will help a visually impaired person, SEO optimization and indexing
 
-    ![case-studies](../supun-maximus/docs/readme-images/case-studies.webp)
+    ![case-studies](docs/readme-images/case-studies.webp)
 
 ## Contact page
 
@@ -175,7 +175,7 @@ Accordingly, we have shared the contact details only on the contact page.
 - A visitor has the option to share gender, age and brief on his requirement.
 - Importantly, the customer is assured of 24 hours resolution time
 
-    ![Contact-page](../supun-maximus/docs/readme-images/contact-page.webp)
+    ![Contact-page](docs/readme-images/contact-page.webp)
 
 ## Existing functional Features,
 - Responsive design
@@ -201,7 +201,7 @@ Accordingly, we have shared the contact details only on the contact page.
 
 For the site, we propose a tree-based architect for organizing data to facilitate ease of navigation scalability. We ensured that the content is surrounded by sufficient white space. 
 
-![structure-plane](../supun-maximus/docs/readme-images/site-structure.webp)
+![structure-plane](docs/readme-images/site-structure.webp)
 
 # Skeleton Plane
 The following components shall be used to give a pleasurable and still objective experience for visitors of the site, 
@@ -227,36 +227,36 @@ The following components shall be used to give a pleasurable and still objective
 
 - Home Page on Desktop
 
-    ![wf-desktop-index](../supun-maximus/docs/readme-images/wf-home.webp)
+    ![wf-desktop-index](docs/readme-images/wf-home.webp)
 
 - Home page on Mobile
 
-    ![wf-mobile-index](../supun-maximus/docs/readme-images/wf-mobile-home.webp)
+    ![wf-mobile-index](docs/readme-images/wf-mobile-home.webp)
 
 - Case study page on Desktop
 
-    ![wf-desktop-casestudies](../supun-maximus/docs/readme-images/wf-casestudies.webp)
+    ![wf-desktop-casestudies](docs/readme-images/wf-casestudies.webp)
 
 - Case Study page on Mobile
 
-    ![wf-mobile-casestudies](../supun-maximus/docs/readme-images/wf-mobile-case.webp)
+    ![wf-mobile-casestudies](docs/readme-images/wf-mobile-case.webp)
 
 - Contact page on Desktop
 
-    ![wf-desktop-contact](../supun-maximus/docs/readme-images/wf-contact.webp)
+    ![wf-desktop-contact](docs/readme-images/wf-contact.webp)
 
 - Contact page on Mobile
-    ![wf-mobile-contact](../supun-maximus/docs/readme-images/wf-mobile-contact.webp)
+    ![wf-mobile-contact](docs/readme-images/wf-mobile-contact.webp)
 
 # Surface Plane
 In order to bring a visually appealing experience, we shall use, 
 - Colors: Logo colors were picked using adobe color with the mode muted. The selected colors were only used throughout the site. https://color.adobe.com/create/image
  
-     ![site-colors](../supun-maximus/docs/readme-images/site-colors.webp)
+     ![site-colors](docs/readme-images/site-colors.webp)
 
 - Fonts 
 
-Google fonts were used for all Headings and paragraph throughout the site https://fonts.google.com/about
+[Google](https://fonts.google.com/) fonts were used for all Headings and paragraph throughout the site. 
 
 - Layout 
 
@@ -270,8 +270,8 @@ As stated above, to gather details and interact with potential client a form has
 
 All the images were optimized by,
 
-- converting to webp using, https://cloudconvert.com/webp-converter and 
-- then, further optimized using, https://tinypng.com/
+- converting to webp using, [cloud convert](https://cloudconvert.com/webp-converter0 and 
+- then, further optimized using, [tinypng](https://tinypng.com/)
 
 - Order/ Sequence
 
@@ -411,7 +411,7 @@ Steps,
 
 **Actual**: the expectation was met 
 
-![call-testing](../supun-maximus/docs/test-images/call%20test.webp)
+![call-testing](docs/test-images/call%20test.webp)
 
 ### Email Testing
 
@@ -423,7 +423,7 @@ Steps,
 
 **Actual**: the expectation was met 
 
-![emaill-testing](../supun-maximus/docs/test-images/email-test.webp)
+![emaill-testing](docs/test-images/email-test.webp)
 
 ### Form Testing
 
@@ -459,7 +459,7 @@ The form on the contact page was manually tested. It performed as expected where
         Gender: Male
         Message: this is a test
 3.	Click submit
-4.	User shall be landed in https://formdump.codeinstitute.net/ 
+
 
 **Required**: Cannot proceed without the first name for submission, a warning appears
 
@@ -477,7 +477,7 @@ The form on the contact page was manually tested. It performed as expected where
         Gender: Male
         Message: this is a test
 3.	Click submit
-4.	User shall be landed in https://formdump.codeinstitute.net/ 
+
 
 **Required**: Cannot proceed without the last name for submission, a warning appears.
 
@@ -495,7 +495,7 @@ The form on the contact page was manually tested. It performed as expected where
             Gender: Male
             Message: this is a test
 3.	Click submit
-4.	User shall be landed in https://formdump.codeinstitute.net/ 
+
 
 **Required**: Cannot proceed without the correct format of the mobile for submission, a warning appears.
 
@@ -514,7 +514,7 @@ The form on the contact page was manually tested. It performed as expected where
             Message: this is a test
 
 3.	Click submit
-4.	User shall be landed in https://formdump.codeinstitute.net/ 
+
 
 **Required**: Cannot proceed without the correct format of the email for submission, a warning appears.
 
@@ -539,22 +539,22 @@ Social media icons in the footer section, clicked manually to ensure the correct
 
 ### HTML
 
-No errors were returned when passing through the official W3C validator -https://validator.w3.org/
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
 **Index page HTML Validation**
-![index-html](../supun-maximus/docs/test-images/html-checker-index-page.webp)
+![index-html](docs/test-images/html-checker-index-page.webp)
 
 **Case Studies page HTML Validation**
-![case-study](../supun-maximus/docs/test-images/html-check-casestudies.webp)
+![case-study](docs/test-images/html-check-casestudies.webp)
 
 **Contac page HTML Validation**
-![contact-page](../supun-maximus/docs/test-images/html-check-contact.webp)
+![contact-page](docs/test-images/html-check-contact.webp)
 
 ### CSS
 
-No errors were returned when passing through the official W3C validator -https://validator.w3.org/
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
-![css](../supun-maximus/docs/test-images/css-validation.webp)
+![css](docs/test-images/css-validation.webp)
 
 ## Deployment
 
