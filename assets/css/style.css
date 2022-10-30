@@ -458,6 +458,8 @@ nav a:hover {
 #copyright {
     display: flex;
     font-size: 0.8rem;
+    color: inherit;
+    font-weight: 1000;
     justify-content: end;
     align-items: center;
     padding-right: 1rem;
